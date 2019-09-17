@@ -20,7 +20,6 @@ body {
 
 .user_name {
   color: #575757;
-  width: 150px;
   height: 22px;
   text-align: left;
   letter-spacing: -0.57px;
@@ -32,15 +31,14 @@ body {
 }
 
 .ramal {
-  left: 406px;
+  left: 430px;
   font-size: 12px;
-  width: 74px;
   height: 16px;
   top: 30px;
 }
 
 .grupo {
-  left: 490px;
+  left: 512px;
   top: 30px;
   font-size: 12px;
 }
@@ -137,7 +135,7 @@ body {
 .hr {
   color: #DDDDDD;
   width: 37px;
-  border: 1px solid #DDDDDD;
+  border-top: 1px solid #DDDDDD;
   position: absolute;
   top: 164px;
   left: 12px;
@@ -182,12 +180,13 @@ body {
 }
 
 .chatTabHeader {
-  font-family: 'Roboto', sans-serif;
+  color: #005DAA;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  width: 250px;
+  width: 270px;
   height: 23px;
   position: absolute;
-  top: 14px;
+  top: 12px;
   left: 42px;
 }
 
@@ -202,4 +201,320 @@ body {
   width: 40px;
   height: 40px;
   top: 11px;
+}
+
+.showTime {
+  position: absolute;
+  color: #B7BEC5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  top: 81.5px;
+  left: 470px;
+}
+
+.sendChatBalloon {
+  width: 448px;
+  height: 57px;
+  background-color: #E3E3E3;
+  border-radius: 20px 20px 0px 20px;
+  position: absolute;
+  top: 100px;
+  left: 519px;
+}
+
+.inChatBalloon {
+  color: #575757;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  width: 401px;
+  height: 40px;
+  position: absolute;
+  left: 25px;
+  top: 8.5px;
+}
+
+.writeArea {
+  width: 806px;
+  height: 40px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 506px;
+  left: 20px;
+  border-radius: 50px;
+  border: 1px solid #B7BEC5;
+}
+
+.textAreaText {
+  color: #B7BEC5;
+  font-family: 'Roboto', sans-serif;
+  size: 12px;
+  position: absolute;
+  top: 11px;
+  left: 40px;
+}
+
+.sendIcon {
+  width: 18px;
+  height: 15px;
+  position: absolute;
+  top: 12.5px;
+  right: 17px;
+}
+
+.messageIcon {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  top: 515px;
+  right: 119px;
+}
+
+.attachLabel {
+  width: 40px;
+  height: 40px;
+  background-color: #F2F2F2;
+  border-radius: 50%;
+  position: absolute;
+  right: 65px;
+  bottom: 20px;
+}
+
+.attachIcon {
+  height: 24px;
+  width: 12px;
+  position: absolute;
+  right: 79.5px;
+  top: 514px;
+  z-index: 1;
+}
+
+.micIcon {
+  width: 15px;
+  height: 21px;
+  position: absolute;
+  right: 32px;
+  top: 515px;
+}
+
+.lidaText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 8px;
+  position: absolute;
+  top: 62px;
+  width: 15px;
+  height: 9px;
+  left: 433px;
+  color: #B7BEC5;
+}
+
+.recieveChatBalloon {
+  width: 254px;
+  height: 38px;
+  position: absolute;
+  left: 20px;
+  top: 214.5px;
+  border: 1px solid #575757;
+  border-radius: 20px 20px 20px 0px;
+}
+
+.blackStar {
+  width: 10px;
+  height: 9px;
+  position: absolute;
+  left: 4px;
+  top: 24px;
+}
+
+.scrool {
+  height: 389px;
+  width: 10px;
+  background-color: #E8EAEB;
+  position: absolute;
+  border-radius: 63px;
+  top: 96.41px;
+  left: 972.27px;
+}
+
+.boldScrool {
+  background-color: #B7BEC5;
+  border-radius: 63px;
+  height: 50px;
+}
+
+.rightBar {
+  background-color: #FFFFFF;
+  width: 277px;
+  height: 619px;
+  position: absolute;
+  top: 70.5px;
+  left: 1079px;
+}
+
+.detalhesHeader {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #005DAA;
+  position: absolute;
+  left: 20px;
+  top: 25.67px;
+}
+
+.material-icons {
+  color: #B7BEC5;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.closeIcon {
+  position: absolute;
+  top: 23px;
+  left: 237px;
+}
+
+.phoneIcon {
+  width: 7px;
+  height: 11px;
+  position: absolute;
+  top: 80px;
+  left: 22.93px;
+}
+
+.longText {
+  width: 220px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  position: absolute;
+  top: 78px;
+  left: 35.42px;
+  letter-spacing: -0.43px;
+  line-height: 17px;
+}
+
+.litteWhite {
+  color: #575757;
+}
+
+.othersText {
+  font-family: 'Roboto', sans-serif;
+  color: #575757;
+  font-size: 12px;
+  position: absolute;
+  top: 251px;
+  left: 20px;
+}
+
+.othersIcon {
+  position: absolute;
+  top: 246px;
+  left: 237px;
+}
+
+.addNewTab {
+  width: 132px;
+  height: 42px;
+  position: absolute;
+  background-color: #005DAA;
+  position: absolute;
+  left: 289px;
+  top: 648px;
+  border-radius: 6px;
+}
+
+.gestor {
+  font-family: 'Roboto', sans-serif;
+  font-size: 8px;
+  color: #FFFFFF;
+  position: absolute;
+  left: 17.42px;
+  top: 6px;
+}
+
+.cancelIcon {
+  color: #FFFFFF;
+  font-size: 12px !important;
+  position: absolute;
+  left: 117px;
+  top: 3.5px;
+}
+
+.newName {
+  font-family: 'Poppins', sans-serif;
+  color: #005DAA;
+  font-size: 10px;
+  position: absolute;
+  left: 18px;
+  top: 3px;
+  line-height: 13px;
+  width: 92px;
+}
+
+.notification {
+  width: 20px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #005DAA;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 8px;
+  position: absolute;
+  left: 110px;
+  bottom: 37px;
+}
+
+.tinyRedCircle {
+  width: 5px;
+  height: 5px;
+  background-color: #ED4E50;
+  border-radius: 50%;
+  position: absolute;
+  left: 18px;
+  bottom: 5px; 
+}
+
+.sideCircle {
+  font-family: 'Roboto',sans-serif;
+  font-size: 8px;
+  color: #575757;
+  position: absolute;
+  left: 27px;
+  bottom: 2.7px;
+}
+
+.moreSection {
+  width: 46px;
+  height: 42px;
+  background-color: #B7BEC5;
+  position: absolute;
+  left: 1015px;
+  top: 648px;
+  border-radius: 6px;
+}
+
+.threedots {
+  width: 17px;
+  height: 4px;
+  position: absolute;
+  left: 14.32px;
+  top: 18.32px;
 }
