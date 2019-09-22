@@ -1,2 +1,2 @@
 # chatApp
-Design of a chat application jest using html and css.
+Design of a chat application just using html and css.
